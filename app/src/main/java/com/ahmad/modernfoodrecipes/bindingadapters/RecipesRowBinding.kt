@@ -1,4 +1,4 @@
-package com.ahmad.modernfoodrecipes.adapters.bindingadapters
+package com.ahmad.modernfoodrecipes.bindingadapters
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
@@ -16,6 +16,7 @@ class RecipesRowBinding {
         fun loadImageFromUrl(imageView: ImageView, imageUrl:String){
             imageView.load(imageUrl){
                 crossfade(600)
+                    .error(R.drawable.ic_image_placeholder)
             }
         }
 
