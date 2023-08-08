@@ -1,7 +1,7 @@
 package com.ahmad.modernfoodrecipes.di
 
 import com.ahmad.modernfoodrecipes.util.Constants.Companion.BASE_URL
-import com.ahmad.modernfoodrecipes.di.data.network.FoodRecipeApi
+import com.ahmad.modernfoodrecipes.data.network.FoodRecipeApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

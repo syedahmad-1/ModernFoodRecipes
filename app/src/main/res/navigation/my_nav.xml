@@ -5,19 +5,36 @@
     android:id="@+id/my_nav"
     app:startDestination="@id/recipesFragment">
 
+
     <fragment
         android:id="@+id/recipesFragment"
         android:name="com.ahmad.modernfoodrecipes.ui.fragments.recipes.RecipesFragment"
         android:label="Recipes"
-        tools:layout="@layout/fragment_recipes" />
+        tools:layout="@layout/fragment_recipes" >
+        <action
+            android:id="@+id/action_recipesFragment_to_recipesBottomSheet"
+            app:destination="@id/recipesBottomSheet" />
+
+    </fragment>
+
     <fragment
         android:id="@+id/favoriteRecpiesFragment"
         android:name="com.ahmad.modernfoodrecipes.ui.fragments.favorite.FavoriteRecpiesFragment"
         android:label="Favorite"
-        tools:layout="@layout/fragment_favorite_recpies" />
+        tools:layout="@layout/fragment_favorite_recpies" >
+    </fragment>
     <fragment
         android:id="@+id/foodJokeFragment"
         android:name="com.ahmad.modernfoodrecipes.ui.fragments.foodjoke.FoodJokeFragment"
         android:label="Food Joke"
         tools:layout="@layout/fragment_food_joke" />
+    <fragment
+        android:id="@+id/recipesBottomSheet"
+        android:name="com.ahmad.modernfoodrecipes.ui.fragments.recipes.RecipesBottomSheet"
+        android:label="Recipes Bottom Sheet"
+        tools:layout="@layout/recipes_bottom_sheet" >
+        <action
+            android:id="@+id/action_recipesBottomSheet_to_recipesFragment"
+            app:destination="@id/recipesFragment" />
+    </fragment>
 </navigation>

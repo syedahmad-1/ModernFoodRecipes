@@ -1,4 +1,4 @@
-package com.ahmad.modernfoodrecipes.di.data.network
+package com.ahmad.modernfoodrecipes.data.network
 
 import com.ahmad.modernfoodrecipes.models.FoodRecipe
 import retrofit2.Response

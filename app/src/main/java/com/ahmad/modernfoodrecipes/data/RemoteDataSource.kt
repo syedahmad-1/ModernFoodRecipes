@@ -1,6 +1,6 @@
-package com.ahmad.modernfoodrecipes.di.data
+package com.ahmad.modernfoodrecipes.data
 
-import com.ahmad.modernfoodrecipes.di.data.network.FoodRecipeApi
+import com.ahmad.modernfoodrecipes.data.network.FoodRecipeApi
 import com.ahmad.modernfoodrecipes.models.FoodRecipe
 import dagger.hilt.android.scopes.ViewModelScoped
 import retrofit2.Response

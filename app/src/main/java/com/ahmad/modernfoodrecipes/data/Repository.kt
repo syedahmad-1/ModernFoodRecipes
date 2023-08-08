@@ -1,4 +1,4 @@
-package com.ahmad.modernfoodrecipes.di.data
+package com.ahmad.modernfoodrecipes.data
 
 import dagger.hilt.android.scopes.ActivityRetainedScoped
 import dagger.hilt.android.scopes.ViewModelScoped

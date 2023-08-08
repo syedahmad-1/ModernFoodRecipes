@@ -6,7 +6,7 @@ import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import androidx.lifecycle.*
 import com.ahmad.modernfoodrecipes.RecipesEntity
-import com.ahmad.modernfoodrecipes.di.data.Repository
+import com.ahmad.modernfoodrecipes.data.Repository
 import com.ahmad.modernfoodrecipes.models.FoodRecipe
 import com.ahmad.modernfoodrecipes.util.Constants
 import com.ahmad.modernfoodrecipes.util.NetworkResult

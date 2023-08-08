@@ -1,4 +1,4 @@
-package com.ahmad.modernfoodrecipes.di.data
+package com.ahmad.modernfoodrecipes.data
 
 import com.ahmad.modernfoodrecipes.RecipesDao
 import com.ahmad.modernfoodrecipes.RecipesEntity

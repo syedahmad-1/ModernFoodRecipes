@@ -1,4 +1,4 @@
-package com.ahmad.modernfoodrecipes.di.data
+package com.ahmad.modernfoodrecipes.data.database
 
 import android.content.Context
 import androidx.room.Room
