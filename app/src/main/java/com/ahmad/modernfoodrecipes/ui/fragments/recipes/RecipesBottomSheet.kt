@@ -69,7 +69,7 @@ class RecipesBottomSheet : BottomSheetDialogFragment() {
         }
         binding.applyBtn.setOnClickListener{
             recipesViewModel.saveMealAndDietType(mealTypeChip, mealTypeChipId, dietTypeChip, dietTypeChipId)
-            val action: RecipesBottomSheetDirections.ActionRecipesBottomSheetToRecipesFragment()
+//            val action: RecipesBottomSheetDirections.ActionRecipesBottomSheetToRecipesFragment()
 
         }
         // Inflate the layout for this fragment
